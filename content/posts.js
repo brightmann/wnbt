@@ -1,4 +1,12 @@
 const posts = [
+    {
+    title: '战马',
+    description: '这是一篇文章',
+    image: '/posts/post1.jpg',
+    link: '/blog/fh',
+    categories: ['main'], // specifies where it will be rendered
+    date: 'June 07 2026' // optional
+  },
   {
     title: 'My New Blog',
     description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren...',
