@@ -48,3 +48,7 @@ Want to deploy somewhere else than Vercel? Check this blog post on how to export
 
 
 *created by [Vincent Will](https://twitter.com/wweb_dev)*
+
+## Deploy (Cloudflare Workers)
+
+Pushes to `main` automatically rebuild and redeploy via Cloudflare Workers Builds (`npm run build && npx opennextjs-cloudflare build` → `npx opennextjs-cloudflare deploy`).
