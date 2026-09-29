@@ -1,4 +1,20 @@
 const posts = [
+       {
+    title: '测试',
+    description: '这是一篇文章',
+    image: '/posts/post1.jpg',
+    link: '/blog/test',
+    categories: ['main'], // specifies where it will be rendered
+    date: 'September 28 2026' // optional
+  },
+    {
+    title: '稀奇古怪的中国经济',
+    description: '这是一篇文章',
+    image: '/posts/post2.jpg',
+    link: '/blog/ce',
+    categories: ['main'], // specifies where it will be rendered
+    date: 'December 28 2025' // optional
+  },
     {
     title: '战马',
     description: '这是一篇文章',
@@ -6,14 +22,6 @@ const posts = [
     link: '/blog/fh',
     categories: ['main'], // specifies where it will be rendered
     date: 'June 07 2026' // optional
-  },
-  {
-    title: '稀奇古怪的中国经济',
-    description: '这是一篇文章',
-    image: '/posts/post2.jpg',
-    link: '/blog/ce',
-    categories: ['main'], // specifies where it will be rendered
-    date: 'December 28 2025' // optional
   },
   {
     title: 'My New Blog',
