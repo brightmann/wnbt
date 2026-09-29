@@ -8,6 +8,14 @@ const posts = [
     date: 'June 07 2026' // optional
   },
   {
+    title: '稀奇古怪的中国经济',
+    description: '这是一篇文章',
+    image: '/posts/post2.jpg',
+    link: '/blog/ce',
+    categories: ['main'], // specifies where it will be rendered
+    date: 'December 28 2025' // optional
+  },
+  {
     title: 'My New Blog',
     description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren...',
     image: '/posts/post1.jpg',
